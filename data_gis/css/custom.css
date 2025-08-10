@@ -1,0 +1,51 @@
+/* ===== Custom Logo Styles ===== */
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a73e8; /* Replace with your logo's main color */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.mini-logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a73e8;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+/* ===== Navigation Styles ===== */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #1a73e8;
+}
